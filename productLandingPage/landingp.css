@@ -1,0 +1,12 @@
+body {
+    background-color: greenyellow;
+}
+
+header #header-img{
+    height: 80px;
+    width: 80px;
+}
+
+#nav-bar {
+    background-color: #e3f2fd;
+}
