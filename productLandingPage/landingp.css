@@ -1,12 +1,39 @@
 body {
     background-color: greenyellow;
 }
+header {
+    margin-bottom: 25px;
+}
+
+.landingSection {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#email {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+#submit {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    color: blue;
+}
+.row {
+    margin-top: 5px;
+}
 
 header #header-img{
-    height: 80px;
-    width: 80px;
+    width: 50px;
+    height: auto;
 }
 
 #nav-bar {
     background-color: #e3f2fd;
 }
+

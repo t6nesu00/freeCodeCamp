@@ -11,95 +11,91 @@
     <title>Product Landing Page</title>
   </head>
   <body>
-    <!-- header part starts here -->
-    <header id="header">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="nav-bar">
-        <a class="navbar-brand" href="#">
-            <img src="logo-sample.jpg" alt="Logo" id="header-img">
-            MyCompany
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container">
+        <!-- header part starts here -->
+      <div class="row">
+          <header id="header">
+              <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="nav-bar">
+                <a class="navbar-brand" href="#">
+                    <img src="logo-sample.jpg" alt="Logo" id="header-img">
+                    MyCompany
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how-it-work">How It Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prices">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
         
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#feature">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#how-it-work">How It Works</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#prices">Pricing</a>
-                </li>
-            </ul>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-      </nav>
-      <!--
-        <div class="row">
-            <div class="col1">
-                <img src="logo-sample.jpg" alt="Here is Our Logo" id="header-img">
+            </header>  
+      </div>
+      <!-- header part ends here -->
+      
+      <!-- landing page starts -->
+      <div class="row">
+          <div class="landingSection">
+              <div class="row">
+                  <h2 id="heading-land">Trust once and never regret</h2>
+              </div> 
+              <div id="form">
+                  <form action="/https://www.freecodecamp.com/email-submit)" id="form">
+                    <input type="email" placeholder="Enter your email address" id="email" required><br>
+                    <input type="submit" value="submit" id="submit">
+                  </form>
+              </div>
             </div>
-            <div class="col2">
-                <nav id="nav-bar">
-                    <a href="#feature" class="nav-link">Features</a>
-                    <a href="#how-it-work" class="nav-link">How It Works</a>
-                    <a href="#prices" class="nav-link">Pricing</a>
-                </nav>
-            </div>
-        </div>
-      -->  
-    </header>
-    <!-- header part ends here -->
-    
-    <!-- landing page starts -->
-    <div class="row">
-      <form action="/https://www.freecodecamp.com/email-submit)" id="form">
-        <input type="email" placeholder="Enter your email address" required>
-        <input type="submit" value="submit">
-      </form>
-    </div>
-    <div id="feature">
-        <h1>feature part here.</h1>
+      </div>
+      
+      <div id="feature">
+          <h1>feature part here.</h1>
+          <p>sjlfkjsls lfkjslkf lsjkfls fjlsk fjls
+            slkfjslfkjsl kfjl
+            safljsl fksjlkfjslkfj ls jkfl skjflsk fjlskglskjflsk
+            sflskf lskjfl skjflskslfjsl  kfjlsk fslfkjslfk slfkjs lf
+            slfkjslakfjlskfjlsak
+          </p>    
+      </div>
+      <div id="how-it-work">
+        <h3>Watch the complete video to see how it works.</h3>
+        <video width="400px" controls id="video">
+          <source src="hair-dryer.mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+        <p>paragraph one is continuing....</p>
+      </div>
+      <div id="prices">
+        <h1>its price section.</h1>
         <p>sjlfkjsls lfkjslkf lsjkfls fjlsk fjls
           slkfjslfkjsl kfjl
           safljsl fksjlkfjslkfj ls jkfl skjflsk fjlskglskjflsk
           sflskf lskjfl skjflskslfjsl  kfjlsk fslfkjslfk slfkjs lf
           slfkjslakfjlskfjlsak
-        </p>    
+        </p>
+      </div>
     </div>
-    <div id="how-it-work">
-      <h3>Watch the complete video to see how it works.</h3>
-      <video width="400px" controls id="video">
-        <source src="hair-dryer.mp4">
-        Your browser does not support HTML5 video.
-      </video>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-      <p>paragraph one is continuing....</p>
-    </div>
-    <div id="prices">
-      <h1>its price section.</h1>
-      <p>sjlfkjsls lfkjslkf lsjkfls fjlsk fjls
-        slkfjslfkjsl kfjl
-        safljsl fksjlkfjslkfj ls jkfl skjflsk fjlskglskjflsk
-        sflskf lskjfl skjflskslfjsl  kfjlsk fslfkjslfk slfkjs lf
-        slfkjslakfjlskfjlsak
-      </p>
-    </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
