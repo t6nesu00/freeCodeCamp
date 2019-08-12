@@ -67,8 +67,12 @@ header #header-img{
 
 #video {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 5px auto;
     justify-content: center;
     align-items: center;
+}
+
+#prices {
+    margin: 10px auto 10px auto;
 }
 
