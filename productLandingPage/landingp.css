@@ -1,8 +1,18 @@
 body {
-    background-color: greenyellow;
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: aquamarine;
+    }
 }
 header {
     margin-bottom: 25px;
+}
+
+#navbarSupportedContent {
+    float: right;
 }
 
 .landingSection {
@@ -22,10 +32,24 @@ header {
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    color: blue;
+    background-color: #e68a00;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Stencil Std, fantasy;
+    animation-name: btnanim;
 }
+
+#submit:hover {
+    background-color:#663d00;
+    color: white;
+    tran
+}
+
 .row {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 header #header-img{
@@ -34,6 +58,17 @@ header #header-img{
 }
 
 #nav-bar {
-    background-color: #e3f2fd;
+    background-color: bisque;
+}
+
+#feature {
+    margin-top: 150px;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 

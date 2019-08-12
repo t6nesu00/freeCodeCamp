@@ -16,7 +16,7 @@
       <div class="row">
           <header id="header">
               <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="nav-bar">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="landing.html">
                     <img src="logo-sample.jpg" alt="Logo" id="header-img">
                     MyCompany
                 </a>
@@ -52,24 +52,45 @@
               <div id="form">
                   <form action="/https://www.freecodecamp.com/email-submit)" id="form">
                     <input type="email" placeholder="Enter your email address" id="email" required><br>
-                    <input type="submit" value="submit" id="submit">
+                    <input type="submit" value="Get Started" id="submit">
                   </form>
               </div>
             </div>
       </div>
       
+      <!-- Features parts is done with Card component of Bootstrap Library. -->
       <div id="feature">
-          <h1>feature part here.</h1>
-          <p>sjlfkjsls lfkjslkf lsjkfls fjlsk fjls
-            slkfjslfkjsl kfjl
-            safljsl fksjlkfjslkfj ls jkfl skjflsk fjlskglskjflsk
-            sflskf lskjfl skjflskslfjsl  kfjlsk fslfkjslfk slfkjs lf
-            slfkjslakfjlskfjlsak
-          </p>    
+        <div class="row">
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="./imgs/hd1.png" class="card-img-top" alt="hair dryer">
+                  <div class="card-body">
+                    <p class="card-text">The Sample hair dryer measures air temperature 20 times a second, and regulates the heat. This prevents extreme heat damage, to help protect your hair’s natural shine.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="./imgs/hd2.jpg" class="card-img-top" alt="hair dryer">
+                  <div class="card-body">
+                    <p class="card-text">Here some more feature. The Sample hair dryer comes with rotating magnetic attachments. So you can quickly click them on and off during styling.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="./imgs/hd3.jpg" class="card-img-top" alt="hair dryer">
+                  <div class="card-body">
+                    <p class="card-text">While other dryers can be top-heavy, the Sample hair dryer is engineered with the motor in the handle. Shifting its centre of gravity to feel balanced in the hand.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
       </div>
       <div id="how-it-work">
-        <h3>Watch the complete video to see how it works.</h3>
-        <video width="400px" controls id="video">
+        <h1>How It Works</h1>
+        <p>Please watch complete video.</p>
+        <video width="60%" controls id="video">
           <source src="hair-dryer.mp4">
           Your browser does not support HTML5 video.
         </video>
@@ -86,7 +107,7 @@
         <p>paragraph one is continuing....</p>
       </div>
       <div id="prices">
-        <h1>its price section.</h1>
+        <h1>Pricing</h1>
         <p>sjlfkjsls lfkjslkf lsjkfls fjlsk fjls
           slkfjslfkjsl kfjl
           safljsl fksjlkfjslkfj ls jkfl skjflsk fjlskglskjflsk
